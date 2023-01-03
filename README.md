@@ -5,11 +5,11 @@ For example
 
 That's my content image
 
-![Dancing](Example\content.jpg)
+<img alt="Content" src="https://pytorch.org/tutorials/_static/img/neural-style/dancing.jpg">
 
 And I want to apply the following style on it.
 
-![Style](Example/style.jpg)
+<img alt="Style" src="https://pytorch.org/tutorials/_static/img/neural-style/picasso.jpg">
 
 So the output will look more like this.
 
@@ -38,13 +38,13 @@ cd ..
 
 ```commandline
 python NeuralStyleTransferer/src/Model/run.py \
-> --img_url "https://pytorch.org/tutorials/_static/img/neural-style/dancing.jpg"
+> --img_url "https://pytorch.org/tutorials/_static/img/neural-style/dancing.jpg" \
 > --style_url "https://pytorch.org/tutorials/_static/img/neural-style/picasso.jpg"
 ```
 or if you have your content img and style img stored locally
 ```commandline
 python NeuralStyleTransferer/src/Model/run.py \
-> --img_dir "dancing.jpg"
+> --img_dir "dancing.jpg" \
 > --style_dir "style.jpg"
 ```
 
