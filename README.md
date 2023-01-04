@@ -13,7 +13,7 @@ And I want to apply the following style on it.
 
 So the output will look more like this.
 
-![Output](Example/Output.png)
+![Output](https://user-images.githubusercontent.com/77535479/210501266-ff75accd-a404-4d3e-9c79-5662a55a4c3e.png)
 
 ## Use of it is fairly straight forward.
 1. Change the directory to NeuralStyleTranferer
@@ -50,7 +50,7 @@ python NeuralStyleTransferer/src/Model/run.py \
 
 Tadda the output
 
-![Ouput](Example/Output_.png)
+![Ouput](https://user-images.githubusercontent.com/77535479/210501354-022304ae-3694-405c-b282-ee0d2d64f84a.png)
 
 This code is open source, so it means you can use it however you like.
 
