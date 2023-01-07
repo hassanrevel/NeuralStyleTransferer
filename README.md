@@ -16,25 +16,10 @@ So the output will look more like this.
 ![Output](https://user-images.githubusercontent.com/77535479/210501266-ff75accd-a404-4d3e-9c79-5662a55a4c3e.png)
 
 ## Use of it is fairly straight forward.
-1. Change the directory to NeuralStyleTranferer
-
+1. Install this package to your local system before using it
 ```commandline
-cd NeuralStyleTranferer
+python NeuralStyleTransferer/setup.py install
 ```
-
-2. Pip install all the packages
-
-```commandline
-pip install -r requirements.txt
-```
-
-3. Go back
-
-```commandline
-cd ..
-```
-
-4. Just run the code
 
 ```commandline
 python NeuralStyleTransferer/src/Model/run.py \
